@@ -22,7 +22,7 @@
 
 
 <h1 id="motivacion">Motivación</h1>
-El tema lo he elegido ya que me encanta mucho hacer proyectos inspirados en series que veo y sobretodo me encantan, en este caso tanto Theboys como GenV la tengo muy reciente y no he podido evitar inspirarme en ella.
+El tema lo he elegido ya que me encanta mucho hacer proyectos inspirados en series que veo, en este caso tanto The boys como GenV la tengo muy reciente y no he podido evitar inspirarme en ella.
 
 <h1 id="estructura">Estructura</h1>
 
