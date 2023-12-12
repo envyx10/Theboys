@@ -1,0 +1,1037 @@
+/******************************************************/
+/*        Style sheet for THEBOYS - ACTION TV         */ 
+/*        Autor: Pablo Gil Diaz                       */
+/*        Version: 1.1.0                              */
+/*        comments: class project 2023/2024           */
+/******************************************************/
+
+
+/********************************** 
+              Imports 
+              fonts
+**********************************/
+
+/*  
+TITULOS  ---> RALEWAY 
+*/   
+
+/* font-family: 'Raleway', sans-serif; */         
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;800&display=swap');
+
+
+/*  
+PARRAFOS ---> ROBOTO  LATO  
+*/  
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap');  /* font-family: 'Roboto', sans-serif; */
+/*  font-family: 'Lato', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');  /* font-family: 'Lato', sans-serif; */
+
+/* FONT PARA FOOTER */
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+
+
+
+/********************************** 
+            Colores
+**********************************/
+
+/* 
+
+tonos blancos #f2f2f2 
+tonos oscuros #141414
+tonos resalte rgb(236, 32, 32)
+
+*/
+
+
+/****** 
+GLOBAL 
+*******/
+html{ scroll-behavior: smooth;} 
+
+* { box-sizing: border-box;}
+
+body{
+margin:0; padding:0;
+background-color: #f5f5f5;
+font-family: 'Roboto', sans-serif;
+}
+
+#wrapper{
+background-color: #f5f5f5;
+width: 80%;
+margin: auto;
+padding: 5%;
+
+}
+#wrapper section{
+padding-left: 5%;
+}
+
+.mainH1{
+padding-left: 50px;
+color: #141414;
+font-size: 6em;
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+text-align: center;
+margin-bottom: 66px;
+}
+
+.mainH2_v1{
+text-align: center;
+color: #f5f5f5;
+font-size: 3em;
+font-family: 'Raleway', sans-serif ;
+font-weight: 800;
+font-style: italic;
+background-color: #141414;
+margin-left: 5%;
+}
+
+/****** 
+NAV
+*******/
+
+nav{
+position: fixed;
+top: 0;
+z-index: 1;
+width: 100%;
+}
+
+.topnav {
+font-family: 'Raleway', sans-serif; 
+font-weight: 300;
+overflow: hidden;
+background: rgba(34, 33, 33, 0.7);
+
+}
+      
+.topnav a {
+float: left;
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 1.2em;
+
+}
+
+.topnav a:hover {
+background-color: rgb(236, 32, 32);
+color: #f2f2f2;
+} 
+    
+.topnav .icon {
+display: none;
+}
+
+/* .fa-arrow-up{
+position: fixed;
+bottom: 50px;
+right: 50px;
+font-size: 1.3em !important;
+}
+*/
+
+/****** 
+HERO
+SECTION
+*******/
+
+.hero{
+background-image: url(../img/theboys4.jpg);
+height: 100vh; 
+width: 100%; 
+background-size: cover; 
+background-position: 5%; 
+position: relative;
+}
+
+/*  
+CURSO 
+PARA 
+TODO 
+*/
+
+button{
+cursor: pointer;
+}
+
+#hero button{
+cursor: pointer;
+background: rgba(34, 33, 33, 0.8);
+color: #ddd;
+width: 10%;
+height: 50px;
+border: none; 
+border-radius: 10px;
+position: absolute; 
+top:  62%;
+left: 77%;
+transform: translate(-50%, -50%);
+font-family: 'Roboto', sans-serif;
+}
+
+
+/* 
+IMG MAIN &
+HOOVER
+*/
+
+.scimg1{
+background-image: url(../img/theboys1.jpg);
+height: 30vh; 
+width: 100%; 
+background-size: cover; 
+background-position: 5%; 
+position: relative;
+}
+
+.scimg2{
+background-image: url(../img/theboys3.jpg);
+height: 30vh; 
+width: 100%; 
+background-size: cover; 
+background-position: 5%; 
+position: relative;
+}
+
+.scimg3{
+background-image: url(../img/theboys2.jpg);
+height: 30vh; 
+width: 100%; 
+background-size: cover; 
+background-position: 5%; 
+position: relative;
+}
+
+.scimg4{
+background-image: url(../img/theboys4.jpg);
+height: 30vh; 
+width: 100%; 
+background-size: cover; 
+background-position: 5%; 
+position: relative;
+}
+        
+/* HOOVER IMGS */
+   
+.grid-4-slide div:hover{
+-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+filter: grayscale(100%);
+}
+
+/*  
+IMG 
+CENTRAL 
+*/
+
+#imgbannerbg{
+width: 85%;
+height: 10vh;
+background-color: #141414;
+color: #f2f2f2;
+}
+
+.imgbanner{
+filter: brightness(80%);
+background-image: url(../img/theboys.jpg);
+height: 100vh; 
+width: 100%; 
+background-size:cover;
+background-position: 60%;
+}
+
+/* SECTION  
+I'M BETTER */
+
+.mainH1_imbetter{
+padding-left: 50px;
+text-align: center;
+color: #141414;
+font-size: 5em;
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+margin-bottom: 8%;
+}
+
+.imghomelander{
+background-image: url(../img/theboys5.jpg);
+height: 50vh; 
+width: 96%; 
+background-size: cover; 
+background-position: 50%; 
+position: relative;
+}
+
+.text-imbetter h2 , .text-genv h2{
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.text-imbetter{
+/* margin-top:50px; */
+top: 70px;
+font-family: 'Lato', sans-serif;
+font-weight: 500;
+font-size: 1.3em;
+}
+
+.text-genv{
+/* margin-top:50px; */
+top: 70px;
+font-family: 'Lato', sans-serif;
+font-weight: 500;
+font-size: 1.3em;     
+}
+
+
+
+.imggen{
+background-image: url(../img/genv.jpg);
+height: 50vh; 
+width: 96%; 
+background-size: cover; 
+background-position: 40%; 
+position: relative;
+}
+
+.grid-2 {
+display: grid;
+grid-template-columns: .5fr .5fr;
+margin-top: 15px;
+}
+
+/* BORDERS */
+.bg1{
+margin-bottom: 10px;
+height: .2vh;
+width: 100%;
+background-color: #141414;
+}
+
+.bg2{         
+margin-top: 75px;
+height: 1vh;
+width: 100%;
+background-color: #141414;
+}
+
+/* SECTION 
+PRÓXIMAMENTE */
+
+.slide h2{
+text-align: center;
+margin-top: 5%;
+color: #141414 ; 
+font-size: 6em;
+font-family: 'Raleway', sans-serif ;
+font-weight: 800;  
+margin: 5% 5%;
+} 
+
+.imgslide{
+background-image: url(../img/imgslide.jpg);
+height: 50vh; 
+width: 100%; 
+background-size: cover; 
+background-position: 50%; 
+position: relative;
+}
+
+.imgslide2{
+background-image: url(../img/imgslide2.jpg);
+height: 50vh; 
+width: 100%; 
+background-size: cover; 
+background-position: 50%; 
+position: relative;
+        }
+.imgslide3{
+background-image: url(../img/imgslide3.webp);
+height: 50vh; 
+width: 100%; 
+background-size: cover; 
+background-position: 50%; 
+position: relative;
+}
+        
+.grid-4-slide{
+display: grid;
+grid-template-columns: auto auto auto;
+gap: 2%;
+}
+
+
+/* BOTON CONTINUAR 
+LEYENDO */
+
+.button {
+padding: 1em 2em;
+border: none;
+border-radius: 5px;
+font-weight: bold;
+letter-spacing: 5px;
+text-transform: uppercase;
+color: rgb(247, 23, 7);
+transition: all 1000ms;
+font-size: 15px;
+position: relative;
+overflow: hidden;
+outline: 2px solid rgb(240, 53, 6);
+}
+      
+.button:hover {
+color: #f2f2f2;
+transform: scale(1.1);
+outline: 2px solid rgb(240, 53, 6);
+box-shadow: 4px 5px 17px -4px rgb(247, 23, 7);
+}
+      
+.button::before {
+content: "";
+position: absolute;
+left: -50px;
+top: 0;
+width: 0;
+height: 100%;
+background-color: rgb(247, 23, 7);
+transform: skewX(45deg);
+z-index: -1;
+transition: width 1000ms;
+}
+      
+.button:hover::before {
+width: 250%;
+}
+
+
+
+/* FOOTER */
+
+.site-footer{
+margin-top: 50px;
+background-color:#141414;
+padding:18px 0 20px;
+font-size:15px;
+line-height:24px;
+color:#737373;
+}
+.site-footer hr{
+width: 75%;
+border-top-color:#bbb;
+opacity:0.5
+}
+
+
+.site-footer p  {
+text-align: center;
+}
+
+#bottom-nav {
+overflow: hidden;
+text-align: center;
+}
+              
+#bottom-nav a {
+color: #737373;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 1.2em;
+}
+
+
+/* 
+FOOTER
+*/
+
+
+footer a {
+text-decoration: none;color: #f2f2f2;}
+footer p > a:hover{
+color: #d9d9d9;text-decoration:  underline;}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin:  1% 0 1% 0;
+}
+._12 {
+font-size: 1.2em;
+}
+._14 {
+font-size: 1.4em;
+}
+
+ul {
+padding:0;
+list-style: none;
+}
+
+.footer-social-icons {
+text-align: center;
+width: 350px;
+display:block;
+margin: 0 auto;
+}
+.social-icon {
+color: #f2f2f2;
+}
+ul.social-icons {
+margin-top: 10px;
+}
+.social-icons li {
+vertical-align: top;
+display: inline;
+height: 100px;
+}
+.social-icons a {
+color: #f2f2f2;
+text-decoration: none;
+}
+.fa-facebook {
+padding:10px 14px;
+-o-transition:.5s;
+-ms-transition:.5s;
+-moz-transition:.5s;
+-webkit-transition:.5s;
+transition: .5s;
+background-color: #322f30;
+}
+.fa-facebook:hover {
+background-color: #3d5b99;
+}
+.fa-twitter {
+padding:10px 12px;
+-o-transition:.5s;
+-ms-transition:.5s;
+-moz-transition:.5s;
+-webkit-transition:.5s;
+transition: .5s;
+background-color: #322f30;
+}
+.fa-twitter:hover {
+background-color: #00aced;
+}
+.fa-rss {
+padding:10px 14px;
+-o-transition:.5s;
+-ms-transition:.5s;
+-moz-transition:.5s;
+-webkit-transition:.5s;
+transition: .5s;
+background-color: #322f30;
+}
+.fa-rss:hover {
+background-color: #eb8231;
+}
+.fa-youtube {
+padding:10px 14px;
+-o-transition:.5s;
+-ms-transition:.5s;
+-moz-transition:.5s;
+-webkit-transition:.5s;
+transition: .5s;
+background-color: #322f30;
+}
+.fa-youtube:hover {
+background-color: #e64a41;
+}
+.fa-linkedin {
+padding:10px 14px;
+-o-transition:.5s;
+-ms-transition:.5s;
+-moz-transition:.5s;
+-webkit-transition:.5s;
+transition: .5s;
+background-color: #322f30;
+}
+.fa-linkedin:hover {
+background-color: #0073a4;
+}
+.fa-github {
+padding:10px 14px;
+-o-transition:.5s;
+-ms-transition:.5s;
+-moz-transition:.5s;
+-webkit-transition:.5s;
+transition: .5s;
+background-color: #322f30;
+}
+.fa-github:hover {
+background-color: #5a32a3;
+}
+
+#gallery h2{
+text-align: center;
+margin-top: 5%;
+color: #141414 ; 
+font-size: 6em;
+font-family: 'Raleway', sans-serif ;
+font-weight: 800;  
+margin: 5% 5%;
+}
+
+.columnstyle img , .mySlides img{
+width:100%;
+}
+
+#gallery{
+margin-top: 5%;
+}
+#gallery img {
+vertical-align: middle;}
+      
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+position: relative;
+}
+      
+/* Hide the images by default */
+
+.mySlides {
+display: none ;  
+}
+      
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+cursor: pointer;
+}
+      
+/* Next & previous buttons */
+.prev,
+.next {
+cursor: pointer;
+position: absolute;
+top: 40%;
+width: auto;
+padding: 16px;
+margin-top: -50px;
+color: white;
+font-weight: bold;
+font-size: 20px;
+border-radius: 0 3px 3px 0;
+user-select: none;
+-webkit-user-select:none;
+}
+      
+/* Position the "next button" to the right */
+.next {
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+      
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+background-color: rgba(0, 0, 0, 0.8);
+}
+      
+/* Number text (1/3 etc) */
+.numbertext {
+color: #f2f2f2;
+font-size: 12px;
+padding: 8px 12px;
+position: absolute;
+top: 0;
+}
+      
+/* Container for image text */
+.caption-container {
+font-family: 'Raleway', sans-serif;
+font-weight: 600;
+text-align: center;
+background-color: #141414;
+padding: 2px 16px;
+color: #f2f2f2;
+}
+      
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+      
+/* Six columns side by side */
+.column {
+float: left;
+width: 16.66%;
+}
+      
+/* Add a transparency effect for thumnbail images */
+.demo {
+opacity: 0.6;
+}
+      
+.active,
+.demo:hover {
+opacity: 1;
+}
+
+/* CREDITOS */
+
+footer #myBtn {
+text-align: center;
+color: #737373;
+background: none;
+margin-left: 48.3%;
+border: none;
+font-size: 15px;
+font-family: 'Raleway';
+}
+
+footer #myBtn:hover{
+color: rgb(236, 32, 32);
+}
+
+/* The Modal (background) */
+.modal {
+display: none; /* Hidden by default */
+position: fixed; /* Stay in place */
+z-index: 1; /* Sit on top */
+padding-top: 100px; /* Location of the box */
+left: 0;
+top: 0;
+width: 100%; /* Full width */
+height: 100%; /* Full height */
+overflow: auto; /* Enable scroll if needed */
+background-color: rgb(0,0,0); /* Fallback color */
+background: rgba(34, 33, 33, 1);
+}
+
+.modal-content p {
+        width: 45%;
+}
+
+/* Modal Content */
+.modal-content {
+background: rgba(34, 33, 33, 0.9);
+margin: 6% auto;
+padding: 20px;
+width: 100%;
+height: 30vh;
+text-align: left;
+ }
+.modal-content  p{
+text-align: left;
+}
+.modal-content a:hover{
+color: rgb(236, 32, 32);
+
+}
+.modal-content hr{
+  width: 100%;
+}
+/* The Close Button */
+.close {
+color: #f5f5f5;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+color: rgb(236, 32, 32);
+text-decoration: none;
+cursor: pointer;
+}
+
+/****** 
+RESPONSIVE
+*******/
+
+/* @MEDIA MOBILE */
+@media only screen and (max-width: 767px){
+
+
+        /* WRAPPER  */
+        #wrapper {
+        width: 100%;
+        }
+        #wrapper section {
+         padding-left: 0; 
+      }
+        /***** HERO ******/
+        .hero{    
+        background-position: 13%; 
+        }
+        
+        /***** NAV ******/
+        nav{
+        width: 100%
+        }
+        nav ul {
+        padding: 5px; 
+        }
+
+        /***** button ******/
+        #hero button{
+        width: 45%;
+        top: 80%;
+        left: 57%;
+        }
+
+        /* TO BE A HERO */
+        .mainH1 {
+        padding-left: 25px;
+        font-size: 3.5em;
+        text-align: center;
+        margin-bottom: 23px;
+
+        }
+        
+        .mainH1_imbetter {
+        padding-left: 6px;
+        text-align: center;
+        font-size: 2.4em;
+        }
+
+        .slide h2 {
+        text-align: center;
+        margin-top: 5%;
+        font-size: 3.3em;
+        }
+
+        .mainH2_v1 {
+        text-align: center;
+        font-size: 2.3em;
+        margin-left: 0;
+        }
+
+        .scimg1 , .scimg3 {
+        background-position: 9%;
+        }
+
+        .scimg2 , .scimg4 {
+        background-position: 100%;
+        }
+
+        .imgbanner {
+        height: 70vh;
+        background-position: 51%;
+        }
+
+        #imgbannerbg {
+        height: 3vh;
+        }
+
+        .imghomelander {
+        width: 100%;
+        height: 30vh;
+        background-position: 50%;
+        }
+
+        .imggen {
+        width: 100%;
+        height: 30vh;
+        background-position: 14%;
+        }
+
+        .text-imbetter {
+        margin-top: 0px; 
+        }
+
+        .imgslide , .imgslide2 , .imgslide3 {
+        height: 54vh;
+        background-position: 50%;
+        }
+
+        .grid-2 {
+        grid-template-columns: 100%;
+        margin-top: 15px;
+        }
+
+        .text-imbetter {
+        margin-top: 10px;
+        font-size: 1.3em;
+        }
+
+        .text-genv {
+        margin-top: 10px;}
+        
+        .grid-4-slide {
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 2%;
+        }
+
+        /* GALERIA */
+        #gallery h2 {
+        font-size: 3em;
+        }
+
+        footer #myBtn {
+        margin-left: 43%;
+        }
+  
+
+}
+
+/* @MEDIA TABLET */
+@media only screen and (min-width: 768px ) and ( max-width:1023px){ 
+
+        /***** HERO******/
+        #hero{ 
+        height: 100vh; 
+        background-size: cover; 
+        background-position: 12%; 
+        }
+
+        /***** button ******/
+        #hero button{
+        width: 23%;
+        top:  74%;
+        left: 54%;
+        }
+
+        /* COOMING SOON */
+        .slide h2{
+        margin-top: 15%;
+        }
+
+        .slide .grid-4-slide{
+        grid-template-columns: 100%
+        }
+        
+        .imgslide2{
+        background-size: cover;
+        top: 20;
+        }
+
+        .mainH1 {
+        padding-left: 24px;
+        font-size: 7em; 
+        }
+
+        .scimg1{
+        height: 42vh;
+        background-position: 100%;   
+        }
+
+        .scimg2{
+        height: 42vh;
+        }
+
+        .scimg3{
+        background-position: 100%;   
+        height: 42vh;
+        }
+        .scimg4{
+        height: 42vh;
+        }
+
+        .imgbanner {
+        height: 53vh;
+        background-position: 45%;
+        }
+
+        #imgbannerbg {
+        height: 3vh;
+        }
+
+        .mainH1_imbetter {
+        padding-left: 0;
+        font-size: 4.5em;
+        }
+
+        .grid-2 {
+        grid-template-columns: 100%;
+        margin-top: 10%;
+        }
+
+        .imghomelander {
+        height: 43vh;
+        width: 100%;
+        background-position: 50%;  
+        }
+
+        .imggen {
+        height: 43vh;
+        width: 100%;
+        background-position: 50%;  
+        }
+
+        .text-imbetter {
+        margin-top: 0;
+        }
+
+        .slide h2 {
+        text-align: center;
+        margin-top: 5%;
+        font-size: 4em;
+        }
+
+        .imgslide , .imgslide2 , .imgslide3 {
+        height: 62vh;
+        }
+        
+        .site-footer {
+        margin-top: 90px;
+        }
+        
+        footer #myBtn {
+        margin-left: 46%;
+      }
+
+
+
+
+        
+}
+
+ /* @MEDIA PORTATIL */
+
+@media only screen and (min-width : 1024px) and ( max-width: 1920px){ 
+        #hero button {
+        width: 16%;
+        height: 53px;
+        top: 76%;
+        left: 78%;
+        }
+
+        .text-imbetter, .text-genv {
+        margin-top: -11px;
+        }
+        .imgslide , .imgslide2 , .imgslide3{
+        height: 56vh;
+        }
+ 
+}
+    
+
+/* RESPONSIVE TOPNAV */
+@media screen and (max-width: 1024px) {
+        .topnav a:not(:first-child) 
+        {display: none;}
+        .topnav a.icon {
+        float: right;
+        display: block;
+        }
+    }
+      
+@media screen and (max-width: 1024px) {
+        .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+        }
+        .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+        }
+}
+
+
+
