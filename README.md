@@ -35,7 +35,7 @@ El tema lo he elegido ya que me encanta mucho hacer proyectos inspirados en seri
 
 > <h3> Hero Section </h3>
 <img src="./TB-readme/Section1.jpg" alt="imagen de hero section" style="width:50%">
-<p>He utilizado una imagen de fondo tomada de wallpaper Abyss que se adapta fácilmente a diferentes dispositivos y comple todas las necesidades buscadas para este proyecto <br>
+<p>He utilizado una imagen de fondo tomada de wallpaper Abyss que se adapta fácilmente a diferentes dispositivos y comple todas las necesidades buscadas para este proyecto. <br>
 Sobre ella he colocado un button estilado con un hover donde te lleva a la página de la serie en PRIMEVIDEO para buscar mas información.
 </p>
 
@@ -54,7 +54,7 @@ En donde aparece los protagonistas. <br>
 <img src="./TB-readme/section3_3.jpg" alt="imagen de hero section" style="width:50%">
 
 <p>Esta section de artículos empieza con una frase mítica del personaje HOMELANDER en theboys, la cual se hizo muy viral en tiktok por lo que representa esta escena.<br>
-Dentro de esta sección nos vamos a encontrar dos cards con su respectiva preview de información seguida del botón donde, si quieres, puedes ampliar la información de este personaje<br>
+Dentro de esta sección nos vamos a encontrar dos cards con su respectiva preview de información seguida del botón donde, si quieres, puedes ampliar la información de este personaje
 al igual que en el caso de la card de GENV. Ambas estan hechas con grid-2</p>
 
 > <h3>Próximamente</h3>
@@ -63,17 +63,36 @@ al igual que en el caso de la card de GENV. Ambas estan hechas con grid-2</p>
 
 <p>En esta section podemos ver las próxima temporada anunciada confirmada para 2024, he usado en ella un grid de 3 con un hoover en las imágenes y un enlance donde te lleva al trailer en youtube</p>
 
+> <h3>Galería</h3>
+<img src="./TB-readme/section4_4.jpg" alt="imagen de hero section" style="width:50%">
+<p>Una galería simple con slide</p>
+
+> <h3>Footer</h3>
+<img src="./TB-readme/Section6.jpg" alt="imagen de hero section" style="width:50%">
+<p>Y por último y no menos importante, un footer simple pero estético donde se encuentra las redes sociales del autor ( yo ) y el twitter de la página.<br>
+<br>
+Dentro de ella encontraremos un button llamado '' credits '' donde se encuentra la webgrafía usada para los elementos de la web y el disclaimer</p>
+
+![image"](https://github.com/envyx10/Theboys/assets/29457987/6351773f-1ccc-4025-a594-71fd41d10d2c)
 
 
+<h1 id="estilo">Estilo de la página</h1>
 
-# Tipografía:
+> <h3>Tipografía:</h3>
 - **TÍTULOS** <br>// Raleway <br>
 - **PARRAFOS** <br>// Roboto & Lato
   
-# Paleta de color:
+> <h3>Paletas de color:</h3>
 Tonos blancos ( #f2f2f2 ) <br>
 Tonos oscuros ( #141414 ) <br>
 Tonos resalte ( rgb(236, 32, 32) )  <br>
+
+<h1>Code snippets</h1>
+He utilizado los siguientes: <br>
+
+- Para la barra de navegación y el slide de la galería he dado uso de W3SCHOOLS " HOW TO "  <br> // https://www.w3schools.com/howto/default.asp <br>
+- Para el footer me he inspirado en este de codepen escogiendo los iconos y un poco la estética <br>// https://codepen.io/scanfcode/pen/MEZPNd <br>
+- Para las fotografías he usado <br> // https://wall.alphacoders.com/by_sub_category.php?id=317706&name=The+Boys+Wallpapers
 
 
 # Enlace Proyecto
